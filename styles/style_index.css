@@ -1,0 +1,360 @@
+.img-responsive{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.navbar{
+	max-width: 900px;
+	margin: auto;
+	padding: 20px 0px 30px 0px;
+}
+
+.navbar ul{
+	float: right;
+}
+
+.navbar li{
+	display: inline-block;
+	font-family: 'Open Sans', "Raleway", sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-decoration: none; 
+	padding: 10px 13px 0px 5px;
+
+}
+
+.navbar li a{
+	color: black;
+	text-decoration: none; 
+}
+
+.tituloheader{
+    position: relative;
+    bottom: 325px;
+    left: 340px;
+    color: white;
+    font-family: "Raleway", "OpenSans", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.textoheader1{
+    position: relative;
+	bottom: 288px;
+    left: 341px;
+    color: silver;
+    font-family: "Raleway", "OpenSans", sans-serif;
+    font-size: 18px;
+}
+
+.textoheader2{
+	position: relative;
+    bottom: 270px;
+    left: 341px;
+    color: silver;
+    font-family: "Raleway", "OpenSans", sans-serif;
+    font-size: 18px;
+}
+
+.formbuscador{
+    max-width: 900px;
+    margin: auto;
+    margin-top: -107px;
+    margin-bottom: 60px;
+
+}
+
+.botonbuscador1{
+	font-family: 'Open Sans', "Raleway", sans-serif;
+    height: 80px;
+    width: 776px;
+    padding-left: 20px;
+    font-size: 16px;
+    box-shadow: -1px 5px 8px 0px #C0C0C0;
+    border: none;
+
+}
+
+.botonbuscador2{
+	font-family: 'Open Sans', "Raleway", sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+	width: 120px;
+    height: 80px;
+    color: white;
+    background: #01aff4;
+    border: none;
+
+}
+
+.section1{
+	display: flex;
+	justify-content: center;
+	max-width: 900px;
+    margin: auto;
+    padding: 20px 0px 80px 0px;
+}
+
+.artsection1{
+	margin: 24px;
+	text-align: center;
+}
+
+.artsection1 img{
+	height: 65px;
+}
+
+.artsection1 h3{
+	font-family: 'Open Sans', "Raleway", sans-serif;
+	font-size: 14px;
+    text-transform: uppercase;
+    padding: 25px 0px 15px 0px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.artsection1 p{
+	font-family: 'Open Sans', "Raleway", sans-serif;
+	font-size: 13px;
+    font-weight: lighter;
+	
+}
+
+.section2{
+	max-width: 900px;
+    margin: auto;
+}
+
+.section2 h2{
+	font-family: "Raleway", "OpenSans", sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    position: relative;
+    max-width: 254px;
+    margin: auto;
+}
+
+.texto{
+	font-family: "Raleway", "OpenSans", sans-serif;
+    font-size: 18px;
+    position: relative;
+    max-width: 352px;
+    margin: auto;
+    padding: 15px;
+    font-weight: lighter;
+}
+
+.contenedorSection2{
+	display: flex;
+	justify-content: center;
+	margin-top: 60px;
+}
+
+.subContenedor1Section2, .subContenedor3Section2{
+	display: flex;
+	flex-direction: column;
+	padding-top: 30px;
+
+}
+
+.subContenedor2Section2{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.subContenedor1Section2{
+	padding-right: 00px;
+
+}
+.subContenedor1Section2 article, .subContenedor3Section2 article{
+	padding-top: 23px;
+	background: yellow;
+}
+
+.subContenedor1Section2 article img{
+	float: right;
+	padding-bottom: 30px;
+	width: 40px;
+}
+
+.subContenedor3Section2 article img{
+	float: left;
+	padding-bottom: 30px;
+	width: 40px;
+
+}
+
+.subContenedor1Section2 article h3{
+	text-align: right;
+    text-transform: uppercase;
+    padding: 14px 70px 20px 0px;
+	font-weight: bold;
+}
+
+.subContenedor1Section2 article p{
+	text-align: right;
+	padding-right: 70px
+
+}
+
+/*
+.subContenedor2Section2 img{
+	height: 75%;
+    width: 75%;
+    margin: auto;
+    bottom: 35px;
+    position: relative;
+}
+*/
+
+
+.subContenedor3Section2 article h3{
+	text-align: left;
+	text-transform: uppercase;
+    padding: 20px 0px 20px 70px;
+    font-weight: bold;
+}
+
+
+.subContenedor3Section2 article p{
+	text-align: left;
+	padding-left: 70px
+}
+
+
+.section3{
+	/*background-image: url(../assets/pricing-bg.jpg);*/
+	position: relative;
+}
+
+.section3 div img{
+	position: relative;
+    bottom: 127px;
+    z-index: -1;
+}
+
+.pricingTables{
+	font-family: "Raleway", "OpenSans", sans-serif;
+	font-weight: bold;
+	font-size: 35px;
+    position: relative;
+    max-width: 225px;
+    margin: auto;
+    bottom: 303px;
+}
+
+.pricingTables2{
+    font-family: "Raleway", "OpenSans", sans-serif;
+    font-size: 18px;
+    position: relative;
+    max-width: 352px;
+    margin: auto;
+    bottom: 309px;
+    padding: 15px;
+}
+
+.div2section3{
+	font-family: 'Open Sans', "Raleway", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    max-width: 960px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    bottom: 279px;
+}
+
+.div2section3 article{
+	background: white;
+	box-shadow: 0px 1px 12px grey;
+	padding: 14px 0px 44px 0px;
+}
+
+.paquete{
+	text-transform: uppercase;
+	margin: 60px 44px 30px 40px;
+	font-weight: bold;
+}
+
+.precio{
+	font-size: 40px;
+    font-weight: bold;
+}
+
+.precio:before{
+	content: "$";
+	font-size: 15px;
+    vertical-align: super;
+}
+
+.precio:after{
+	content: " .99";
+	font-size: 20px;
+    vertical-align: super;
+}
+
+
+.precio2{
+	color: grey;
+	font-style: italic;
+	padding-bottom: 40px;
+}
+
+.precio3{
+	padding: 10px;
+}
+
+.precioboton{
+	text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    background: #01aff4;
+    padding: 10px 30px;
+    border-radius: 5%;
+    top: 16px;
+    position: relative;
+}
+
+.divfooter1{
+	background: #142e3f;
+	text-align: center;
+	height: 200px;
+	color: white;
+    padding: 100px 0px;
+    box-sizing: border-box;
+    font-family: "Raleway", "Open Sans", sans-serif;
+    font-size: 25px;
+
+}
+
+.divfooter2{
+    font-family: "Raleway", "Open Sans", sans-serif;
+	background: #091722;
+	color: #C0C0C0;
+	padding: 50px 0px;
+	font-size: 11px;
+
+}
+
+.navbardown{
+	max-width: 900px;
+	margin: auto;
+}
+
+.navbardown ul{
+	float: right;
+
+}
+
+.navbardown li{
+	display: inline-block;
+
+}
+
+.navbardown li a{
+    color: white;
+    text-decoration: none;
+    padding: 0px 5px 0px 21px;
+}
