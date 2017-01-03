@@ -101,8 +101,14 @@
 	text-align: center;
 }
 
-.artsection1 img{
+.iconos{
 	height: 65px;
+}
+
+.iconos:hover{
+	transform: scale(1.25);
+	transition: 1s ease-in-out;
+
 }
 
 .artsection1 h3{
