@@ -1,12 +1,25 @@
+/*
+@media screen and (max-width: 700px){}
+@media screen and (max-width: 699px) and (min-width: 401 px){}
+@media screen and (max-width: 400px){}
+*/
+
+/* GENERAL */
+
 .img-responsive{
 	max-width: 100%;
 	max-height: 100%;
 }
 
-.navbar{
+.center{
 	max-width: 900px;
 	margin: auto;
-	padding: 20px 0px 30px 0px;
+}
+
+/* HEADER */
+
+.navbar{
+	padding: 20px 10px 30px 10px;
 }
 
 .navbar ul{
@@ -20,7 +33,6 @@
 	font-weight: bold;
 	text-decoration: none; 
 	padding: 10px 13px 0px 5px;
-
 }
 
 .navbar li a{
@@ -28,10 +40,23 @@
 	text-decoration: none; 
 }
 
+.pre{
+	position: relative;
+}
+.imagenheader{
+	background-image: url("../	assets/indexbanner-bg3.jpg");
+	background-size: 100%;
+	padding-bottom: 36%;
+	background-position: top left;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
 .tituloheader{
-    position: relative;
-    bottom: 325px;
-    left: 340px;
+	display: inline;
+    position: absolute;
+	top: 18%;
+    left: 26%;
     color: white;
     font-family: "Raleway", "OpenSans", sans-serif;
     font-size: 30px;
@@ -39,40 +64,42 @@
 }
 
 .textoheader1{
-    position: relative;
-	bottom: 288px;
-    left: 341px;
+	display: inline;
+    position: absolute;
+	top: 33%;
+    left: 26%;
     color: silver;
     font-family: "Raleway", "OpenSans", sans-serif;
     font-size: 18px;
 }
 
 .textoheader2{
-	position: relative;
-    bottom: 270px;
-    left: 341px;
+	display: inline;
+    position: absolute;
+    top: 40%;
+    left: 26%;
     color: silver;
     font-family: "Raleway", "OpenSans", sans-serif;
     font-size: 18px;
 }
 
+.searchContainer{
+	position: relative;
+    bottom: 60px;
+}
+
 .formbuscador{
     max-width: 900px;
     margin: auto;
-    margin-top: -107px;
-    margin-bottom: 60px;
-
 }
 
 .botonbuscador1{
 	font-family: 'Open Sans', "Raleway", sans-serif;
-    height: 80px;
-    width: 776px;
-    padding-left: 20px;
+    width: 79%;
+    padding: 3% 0px 3% 20px;
     font-size: 16px;
     box-shadow: -1px 5px 8px 0px #C0C0C0;
     border: none;
-
 }
 
 .botonbuscador2{
@@ -80,19 +107,20 @@
 	text-transform: uppercase;
 	font-weight: bold;
 	letter-spacing: 2px;
-	width: 120px;
-    height: 80px;
+	width: 20%;
+    padding: 3% 0px 3% 0px;
     color: white;
     background: #01aff4;
     border: none;
+    font-size: 16px;
 
-}
+	}
+
+/* SECTION 1 */
 
 .section1{
 	display: flex;
 	justify-content: center;
-	max-width: 900px;
-    margin: auto;
     padding: 20px 0px 80px 0px;
 }
 
@@ -127,10 +155,7 @@
 	
 }
 
-.section2{
-	max-width: 900px;
-    margin: auto;
-}
+/* SECTION 2 */
 
 .section2 h2{
 	font-family: "Raleway", "OpenSans", sans-serif;
@@ -168,6 +193,7 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	margin: 0px 15px;
 }
 
 .subContenedor1Section2{
@@ -176,7 +202,6 @@
 }
 .subContenedor1Section2 article, .subContenedor3Section2 article{
 	padding-top: 23px;
-	background: yellow;
 }
 
 .subContenedor1Section2 article img{
@@ -202,24 +227,12 @@
 .subContenedor1Section2 article p{
 	text-align: right;
 	padding-right: 70px
-
 }
-
-/*
-.subContenedor2Section2 img{
-	height: 75%;
-    width: 75%;
-    margin: auto;
-    bottom: 35px;
-    position: relative;
-}
-*/
-
 
 .subContenedor3Section2 article h3{
 	text-align: left;
 	text-transform: uppercase;
-    padding: 20px 0px 20px 70px;
+    padding: 14px 0px 20px 70px;
     font-weight: bold;
 }
 
@@ -229,36 +242,37 @@
 	padding-left: 70px
 }
 
+/* SECTION 3 */
 
 .section3{
-	/*background-image: url(../assets/pricing-bg.jpg);*/
-	position: relative;
-}
-
-.section3 div img{
-	position: relative;
-    bottom: 127px;
+	background-image: url(../assets/pricing-bg.jpg);
+	background-size: 100%;
+	background-position: top left;
+	background-repeat: no-repeat;
+	bottom: 47px;
+    position: relative;
     z-index: -1;
+    margin-bottom: 250px;
+	}
+
+.div1section3{
+	position: relative;
+    max-width: 382px;
+    margin: auto;
+    top: 160px;
+    text-align: center;
 }
 
 .pricingTables{
 	font-family: "Raleway", "OpenSans", sans-serif;
 	font-weight: bold;
 	font-size: 35px;
-    position: relative;
-    max-width: 225px;
-    margin: auto;
-    bottom: 303px;
 }
 
 .pricingTables2{
     font-family: "Raleway", "OpenSans", sans-serif;
     font-size: 18px;
-    position: relative;
-    max-width: 352px;
-    margin: auto;
-    bottom: 309px;
-    padding: 15px;
+    padding-top: 15px;
 }
 
 .div2section3{
@@ -269,19 +283,22 @@
     margin: auto;
     text-align: center;
     position: relative;
-    bottom: 279px;
+    top: 220px;
 }
 
 .div2section3 article{
 	background: white;
 	box-shadow: 0px 1px 12px grey;
 	padding: 14px 0px 44px 0px;
+	flex: 1;
+	margin: 0px 7px;
 }
 
 .paquete{
 	text-transform: uppercase;
 	margin: 60px 44px 30px 40px;
 	font-weight: bold;
+	font-size: 15px;
 }
 
 .precio{
@@ -364,3 +381,155 @@
     text-decoration: none;
     padding: 0px 5px 0px 21px;
 }
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 977px){
+
+	.center{
+		max-width: 977px;
+		margin: auto;
+	}
+
+	.navbar ul{
+		display: inline;
+		float: none;
+		position: relative;
+    	left: 30%;
+	}
+
+	.navbar li{
+		font-size: 10px;
+		display: inline-block;
+		font-family: 'Open Sans', "Raleway", sans-serif;
+		text-transform: uppercase;
+		font-weight: bold;
+		text-decoration: none; 
+		padding: 10px 13px 0px 5px;
+	}
+
+	.imagenheader{
+		background-image: url("../	assets/indexbanner-bg3bis.jpg");
+		background-size: 100%;
+		padding-bottom: 57%;
+		background-position: top left;
+		background-repeat: no-repeat;
+		position: relative;
+	}
+
+	.tituloheader{
+		display: inline;
+	    position: absolute;
+	    top: 35%;
+	    left: 1%;
+	    color: white;
+	    font-family: "Raleway", "OpenSans", sans-serif;
+	    font-size: 30px;
+	    font-weight: bold;
+	}
+
+	.textoheader1{
+		display: inline;
+	    position: absolute;
+		top: 45%;
+	    left: 1%;
+	    color: silver;
+	    font-family: "Raleway", "OpenSans", sans-serif;
+	    font-size: 18px;
+		}
+
+	.textoheader2{
+		display: inline;
+	    position: absolute;
+	    top: 52%;
+	    left: 1%;
+	    color: silver;
+	    font-family: "Raleway", "OpenSans", sans-serif;
+	    font-size: 18px;
+		}
+
+	.section1{
+		flex-wrap: wrap;
+	}
+
+	.artsection1{
+		max-width: none;
+		margin: 24px 15px;
+	}
+	
+	.section2{
+		padding-bottom: 20px;
+	}
+
+	.section3{
+		bottom: 0px;
+    }
+
+    .div2section3{
+    	flex-wrap: wrap;
+    }
+
+    .div2section3 article {
+        width: 48%;
+        flex: none;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .precioboton{
+        padding: 10px 36%;
+    }
+
+    .navbardown span{
+    	display: block;
+    	text-align: center;
+    	padding-bottom: 20px;
+    }
+
+    .navbardown ul{
+    	float: none;
+	    max-width: 154px;
+    	margin: auto;
+    }
+
+    .navbardown li a {
+    	padding: 0px 20px 0px 20px;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+	.section1{
+		flex-wrap: wrap;
+		background: blue;
+	}	
+
+}
+
+@media screen and (max-width: 580px){
+	.section1{
+		flex-wrap: wrap;
+		background: red;
+	}
+
+}
+/*
+
+@media screen and (max-width: 699px) and (min-width: 401px){
+	.section1{
+		flex-wrap: wrap;
+	}
+	.section1 article{
+		max-width: 38%;
+	
+	}
+}
+
+@media screen and (max-width: 400px){
+	.section1{
+		flex-direction: column;
+	}
+	.section1 article{
+		
+	}
+}*/
